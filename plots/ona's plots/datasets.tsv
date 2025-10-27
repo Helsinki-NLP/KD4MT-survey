@@ -1,0 +1,66 @@
+Article	Dataset
+\citet{tan2019multilingual}	IWSLT
+\citet{doo-dee-2023-target}	TED Talks
+\citet{mohammadshahi2022small100}\textsuperscript{*}	CCAligned, CCMatrix, Flores, Tatoeba, Tico-19
+\citet{bapna2022building}	Unpublished
+\citet{costa2022nllb}	Wikipedia
+\citet{galaindictrans2}	BPCC
+\citet{zhang2020improving}\textsuperscript{*}	CWMT17, CWMT18, CWMT19
+\citet{baziotis-etal-2021-exploring}	News Commentary v13, WMT17, WMT18
+\citet{zhang2024distilling} 	IWSLT14, IWSLT15, IWSLT17
+\citet{chen2017teacher}	EuroParl, WMT06, Common Crawl, News Commentary, UN
+\citet{he2019language}\textsuperscript{*}	TED Talks
+\citet{Yang_2022} 	WMT, TED Talks, NewsCrawl
+\citet{ahmed2024neural} 	WMT22, Flores
+\citet{saleh2020collective}	IWSLT14, TED Talks
+\citet{saleh-etal-2021-multilingual-neural} 	TED Talks
+\citet{huang-etal-2022-unifying} 	TED-8-Diverse, TED-8-Related, WMT14, WMT16, WMT17, WMT18
+\citet{huang2023towards} 	TED-8-Diverse, TED-8-Related, WMT14, WMT16, WMT17, WMT18
+\citet{roy-etal-2024-enhancing} 	Samanantar, Flores
+\citet{galiano2023exploiting}	OPUS, GoURMET, JW300, NewsCrawl, OSCAR, Flores
+\citet{de-gibert-etal-2023-four}\textsuperscript{*}	OpenSubtitles, AmericasNLP
+\citet{song2023letz}	Gierschek (2022), Flores200, Tatoeba
+\citet{enis2024llm}	BBC
+\citet{dabre-fujita-2020-combining} 	Asian Languages Treebank, IWSLT15, IITB
+\citet{diddee-etal-2022-brittle} 	AmericasNLP, Feldman and Coto-Solano (2020), GGNET Swara, Indian Institute of Technology, Flores, WAT2021, Samanantar, Tatoeba Challenge
+\citet{gumma2023empirical} 	Samanantar, Flores
+\citet{zeng-etal-2019-iterative} 	IWSLT15, IWSLT10, NIST02, IWSLT10, IWSLT11, IWSLT12, NIST03, NIST04, NIST05, NIST06, TED Talks, WMT14, EMEA
+\citet{mghabbar2020building} 	WMT14, EMEA, JRC, GNOME, Bible
+\citet{liu2022neural}  	OpenSubtitles, WMT17, UM
+\citet{gu-etal-2021-pruning} 	WMT17, UM, WMT14, WMT19, WMT16, IWSLT15
+\citet{gordon-duh-2020-distill} 	OpenSubtitles, WMT17, WIPO COPPA-V2, Ted Talks
+\citet{currey-etal-2020-distilling} 	Europarl, JRC, EMEA, GNOME, KDE, PHP, Ubuntu, OpenOffice, WMT14, WMT19, MTNT, Ted Talks
+\citet{wei-etal-2019-online} 	NIST03, NIST04, WMT17, IWSLT15, LDC
+\citet{zhao2022life} 	TED Talks, CCMT-19, KFTT, WMT17
+\citet{zhang-etal-2023-continual} 	LDC, AI Challenger 2018, TED Talks, OpenSubtitles, WMT20, NIST02, NIST03, NIST04, NIST05, NIST06, NIST07, NIST08, NIST09
+\citet{wang-etal-2023-better}  	WMT15, CWMT19, IWSLT15
+\citet{deng2022improving} 	CWMT, ParaCrawl, WikiMatrix
+\citet{sen-etal-2023-self} 	IWSLT21, WMT21
+\citet{zhang2019future} 	WMT17,  NIST02, NIST03, NIST04, NIST05, NIST06
+\citet{feng-etal-2021-guiding} 	LDC, WMT16, WMT17, WMT16 
+\citet{zhou-etal-2022-confidence} 	WMT14, WMT19
+\citet{zhuang-tu-2023-pretrained}	PC32, MC24
+\cite{shao2022one} 	WMT14, WMT16, IWSLT14
+\cite{guo2021self}	WMT14, IWSLT14
+\cite{liu2023selective} 	WMT14, WMT16
+\cite{zhou2020improving}	WMT16, WMT14, NewsCrawl2015, Europarl, Newcrawl
+\citet{zhouunderstanding} 	Europarl, WMT14
+\citet{gordon2019explaining}	TED Talks
+\citet{ren-etal-2020-study}	IWSLT 2014
+\citet{ding2021rejuvenating}	WMT14, WMT16, WMT17, WAT17, WMT19
+\citet{ding2021understanding} 	WMT14, WMT16, WMT17, WAT17
+\citet{xu2021does}	WMT14
+\citet{kim-rush-2016-sequence}	WMT14, IWSLT15
+\citet{wang-etal-2021-selective}	WMT14, WMT19
+\citet{lee-etal-2022-hard}	IWSLT14, IWSLT15, Multi30K
+\citet{{zhang-etal-2023-towards-understanding}	WMT14, WMT16
+\citet{miao-etal-2023-exploring}	IWSLT14,  WMT16, WMT14
+\citet{Freitag2017EnsembleDF}	WMT16
+\citet{zhang-etal-2018-analyzing}	WMT14
+\citet{9722996}	IWSLT14, IWSLT17
+\citet{li2020learninglightweighttranslationmodels}	WMT16, NIST12, WMT19 
+\citet{lin-etal-2020-autoregressive}	IWSLT14, WMT16
+\citet{yoon2023emnetworkoracleguidedselfdistillation}	OSCAR, IWSLT14, WMT14
+\citet{setiawan-2024-accurate}	WMT21, WMT20 
+\citet{wen-etal-2023-f}	WMT16
+\citet{agarwal2024onpolicydistillationlanguagemodels}	WMT14

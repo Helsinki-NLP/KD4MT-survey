@@ -1,0 +1,66 @@
+Study	langpair	Section
+\citet{tan2019multilingual}	ar-en bg-en cs-en da-en de-en el-en en-ar en-bg en-cs en-da en-de en-el en-es en-et en-fa en-fi en-fr en-gl en-he en-hi en-hr en-hu en-hy en-id en-it en-ja en-ka en-ko en-ku en-lt en-lv en-mk en-my en-nb en-nl en-pl en-pt en-ro en-ru en-sk en-sl en-sq en-sr en-sv en-th en-tr en-uk en-vi en-zh es-en et-en fa-en fi-en fr-en gl-en he-en hi-en hr-en hu-en hy-en id-en it-en ja-en ka-en ko-en ku-en lt-en lv-en mk-en my-en nb-en nl-en pl-en pt-en ro-en ru-en sk-en sl-en sq-en sr-en sv-en th-en tr-en uk-en vi-en zh-en	MMT
+\citet{doo-dee-2023-target}	de-en en-de en-fr fr-en en-ko en-ko ja-en en-ja vi-en en-vi zh-en en-zh	MMT
+\citet{mohammadshahi2022small100}\textsuperscript{*}		MMT
+\citet{bapna2022building}	ak-en as-en ay-en bho-en bm-en ckb-en doi-en dv-en ee-en en-ak en-as en-ay en-bho en-bm en-ckb en-doi en-dv en-ee en-ff en-gn en-gom en-ilo en-kl en-kri en-lg en-ln en-lus en-mai en-nso en-om en-qu en-sa en-ti en-ts ff-en gn-en gom-en ilo-en kl-en kri-en lg-en ln-en lus-en mai-en nso-en om-en qu-en sa-en ti-en ts-en	MMT
+\citet{costa2022nllb}	ace-en acm-en acq-en aeb-en afr-en ajp-en aka-en als-en amh-en apc-en arb-en ars-en ary-en arz-en asm-en ast-en awa-en ayr-en azb-en azj-en bak-en bam-en ban-en bel-en bem-en ben-en bho-en bjn-en bod-en bos-en bug-en bul-en cat-en ceb-en ces-en cjk-en ckb-en crh-en cym-en dan-en deu-en dik-en dyu-en dzo-en ell-en en-ace en-acm en-acq en-aeb en-afr en-ajp en-aka en-als en-amh en-apc en-arb en-ars en-ary en-arz en-asm en-ast en-awa en-ayr en-azb en-azj en-bak en-bam en-ban en-bel en-bem en-ben en-bho en-bjn en-bod en-bos en-bug en-bul en-cat en-ceb en-ces en-cjk en-ckb en-crh en-cym en-dan en-deu en-dik en-dyu en-dzo en-ell en-epo en-est en-eus en-ewe en-fao en-fij en-fin en-fon en-fra en-fur en-fuv en-gaz en-gla en-gle en-glg en-grn en-guj en-hat en-hau en-heb en-hin en-hne en-hrv en-hun en-hye en-ibo en-ilo en-ind en-isl en-ita en-jav en-jpn en-kab en-kac en-kam en-kan en-kas en-kat en-kaz en-kbp en-kea en-khk en-khm en-kik en-kin en-kir en-kmb en-kmr en-knc en-kon en-kor en-lao en-lij en-lim en-lin en-lit en-lmo en-ltg en-ltz en-lua en-lug en-luo en-lus en-lvs en-mag en-mai en-mal en-mar en-min en-mkd en-mlt en-mni en-mos en-mri en-mya en-nld en-nno en-nob en-npi en-nso en-nus en-nya en-oci en-ory en-pag en-pan en-pap en-pbt en-pes en-plt en-pol en-por en-prs en-quy en-ron en-run en-rus en-sag en-san en-sat en-scn en-shn en-sin en-slk en-slv en-smo en-sna en-snd en-som en-sot en-spa en-srd en-srp en-ssw en-sun en-swe en-swh en-szl en-tam en-taq en-tat en-tel en-tgk en-tgl en-tha en-tir en-tpi en-tsn en-tso en-tuk en-tum en-tur en-twi en-tzm en-uig en-ukr en-umb en-urd en-uzn en-vec en-vie en-war en-wol en-xho en-ydd en-yor en-yue en-zho en-zsm en-zul epo-en est-en eus-en ewe-en fao-en fij-en fin-en fon-en fra-en fur-en fuv-en gaz-en gla-en gle-en glg-en grn-en guj-en hat-en hau-en heb-en hin-en hne-en hrv-en hun-en hye-en ibo-en ilo-en ind-en isl-en ita-en jav-en jpn-en kab-en kac-en kam-en kan-en kas-en kat-en kaz-en kbp-en kea-en khk-en khm-en kik-en kin-en kir-en kmb-en kmr-en knc-en kon-en kor-en lao-en lij-en lim-en lin-en lit-en lmo-en ltg-en ltz-en lua-en lug-en luo-en lus-en lvs-en mag-en mai-en mal-en mar-en min-en mkd-en mlt-en mni-en mos-en mri-en mya-en nld-en nno-en nob-en npi-en nso-en nus-en nya-en oci-en ory-en pag-en pan-en pap-en pbt-en pes-en plt-en pol-en por-en prs-en quy-en ron-en run-en rus-en sag-en san-en sat-en scn-en shn-en sin-en slk-en slv-en smo-en sna-en snd-en som-en sot-en spa-en srd-en srp-en ssw-en sun-en swe-en swh-en szl-en tam-en taq-en tat-en tel-en tgk-en tgl-en tha-en tir-en tpi-en tsn-en tso-en tuk-en tum-en tur-en twi-en tzm-en uig-en ukr-en umb-en urd-en uzn-en vec-en vie-en war-en wol-en xho-en ydd-en yor-en yue-en zho-en zsm-en zul-en	MMT
+\citet{galaindictrans2}	asm-en ben-en brx-en doi-en en-asm en-ben en-brx en-doi en-gom en-guj en-hin en-kan en-kas en-mai en-mal en-mar en-mni en-npi en-ory en-pan en-san en-sat en-snd en-tam en-tel en-urd gom-en guj-en hin-en kan-en kas-en mai-en mal-en mar-en mni-en npi-en ory-en pan-en san-en sat-en snd-en tam-en tel-en urd-en	MMT
+\citet{zhang2020improving}\textsuperscript{*}	uig-zh uig-mon zh-uig zh-mon mon-zh mon-uig	LRMT
+\citet{baziotis-etal-2021-exploring}	en-de en-tr de-en tr-en	LRMT
+\citet{zhang2024distilling} \\	en-vi vi-en en-fr fr-en	LRMT
+\citet{chen2017teacher}	de-en de-es de-fr en-de en-es en-fr es-de es-en es-fr fr-de fr-en fr-es	LRMT
+\citet{he2019language}\textsuperscript{*}	ar-en ar-fi ar-fr ar-he ar-nb ar-ru ar-sk ar-sl en-ar en-fi en-fr en-he en-nb en-ru en-sk en-sl fi-ar fi-en fi-fr fi-he fi-nb fi-ru fi-sk fi-sl fr-ar fr-en fr-fi fr-he fr-nb fr-ru fr-sk fr-sl he-ar he-en he-fi he-fr he-nb he-ru he-sk he-sl nb-ar nb-en nb-fi nb-fr nb-he nb-ru nb-sk nb-sl ru-ar ru-en ru-fi ru-fr ru-he ru-nb ru-sk ru-sl sk-ar sk-en sk-fi sk-fr sk-he sk-nb sk-ru sk-sl sl-ar sl-en sl-fi sl-fr sl-he sl-nb sl-ru sl-sk	LRMT
+\citet{Yang_2022} \\	cs-en de-en en-cs en-de en-et en-fi en-fr en-hi en-ro en-tr et-en fi-en fr-en hi-en ro-en tr-en	LRMT
+\citet{ahmed2024neural} \\	en-nso en-zul en-tsn en-xho nso-en nso-tsn zul-en zul-xho tsn-en tsn-nso  xho-en xho-zul	LRMT
+\citet{saleh2020collective}	de-en en-de en-es en-et en-eu en-gl en-it en-nb en-nl en-pl en-ru en-sl es-en et-en eu-en gl-en it-en nb-en nl-en pl-en ru-en sl-en	LRMT
+\citet{saleh-etal-2021-multilingual-neural} \\	ar-en az-en be-en bg-en bn-en bs-en cs-en da-en de-en el-en en-ar en-az en-be en-bg en-bn en-bs en-cs en-da en-de en-el en-es en-et en-eu en-fa en-fi en-fr en-gl en-he en-hi en-hr en-hu en-hy en-id en-it en-ja en-ka en-kk en-ko en-ku en-lt en-mk en-mn en-mr en-ms en-my en-nb en-nl en-pl en-pt en-ro en-ru en-sk en-sl en-sq en-sr en-sv en-ta en-th en-tr en-uk en-ur en-vi en-zh es-en et-en eu-en fa-en fi-en fr-en gl-en he-en hi-en hr-en hu-en hy-en id-en it-en ja-en ka-en kk-en ko-en ku-en lt-en mk-en mn-en mr-en ms-en my-en nb-en nl-en pl-en pt-en ro-en ru-en sk-en sl-en sq-en sr-en sv-en ta-en th-en tr-en uk-en ur-en vi-en zh-en	LRMT
+\citet{huang-etal-2022-unifying} \\	aze-en bel-en bos-en bul-en ces-en de-en ell-en en-aze en-bel en-bos en-bul en-ces en-de en-ell en-et en-fra en-glg en-hin en-kor en-mar en-mkd en-por en-ro en-rus en-slk en-tur en-zh et-en fra-en glg-en hin-en kor-en mar-en mkd-en por-en ro-en rus-en slk-en tur-en zh-en	LRMT
+\citet{huang2023towards} \\	bos-en bul-en de-en ell-en en-bos en-bul en-de en-ell en-et en-fra en-hin en-kor en-mar en-mkd en-ro en-tr en-zh et-en fra-en hin-en kor-en mar-en mkd-en ro-en tr-en zh-en	LRMT
+\citet{roy-etal-2024-enhancing} \\	hin-kan hin-pan kan-hin kan-pan pan-hin pan-kan	LRMT
+\citet{galiano2023exploiting}	en-kir en-mkd en-mya en-swa kir-en mkd-en mya-en swa-en	LRMT
+\citet{de-gibert-etal-2023-four}\textsuperscript{*}	es-aym es-bzd es-cni es-czn es-gn es-hch es-nah es-oto es-shp es-tar es-quy	LRMT
+\citet{song2023letz}	lb-en de-en en-de en-lb	LRMT
+\citet{enis2024llm}	en-yor yor-en	LRMT
+\citet{dabre-fujita-2020-combining} \\	vi-en hi-en en-vi en-hi	LRMT
+\citet{diddee-etal-2022-brittle} \\	bzd-es hch-es unr-hin gon-hin asm-eng ori-eng pan-eng guj-eng	LRMT
+\citet{gumma2023empirical} \\		LRMT
+\citet{zeng-etal-2019-iterative} \\	zh-en de-en en-zh en-de	Domain
+\citet{mghabbar2020building} \\	fr-en en-fr	Domain
+\citet{liu2022neural}  \\	en-zh zh-en	Domain
+\citet{gu-etal-2021-pruning} \\	zh-en fr-en de-en en-zh en-fr en-de	Domain
+\citet{gordon-duh-2020-distill} \\	de-en ru-en zh-en en-de en-ru en-zh	Domain
+\citet{currey-etal-2020-distilling} \\	de-en fr-en en-de en-fr	Domain
+\citet{wei-etal-2019-online} \\	en-zh en-vi en-tr zh-en vi-en tr-en	Domain
+\citet{zhao2022life} 	en-it en-nl en-ro uig-zh tib-zh mon-zh zh-en ja-en de-en fi-en lv-en tr-en	Domain
+\citet{zhang-etal-2023-continual} \\	zh-en en-zh	Domain
+\citet{wang-etal-2023-better}  \\	de-en zh-en en-vi	Temporal
+\citet{deng2022improving} \\	en-zh  en-ja 	Temporal
+\citet{sen-etal-2023-self} \\	en-de en-cs 	Temporal
+\citet{zhang2019future} \\	zh-en en-de	Temporal
+\citet{feng-etal-2021-guiding} \\	zh-en en-ro zh-en en-de	Temporal
+\citet{zhou-etal-2022-confidence} \\	en-de zh-en en-fr	Temporal
+\citet{zhuang-tu-2023-pretrained}\\	en-fr en-tr en-es en-ro en-fi en-kk en-tr en-et en-fi en-lv en-cs en-de en-fr en-nl en-pt en-pl ar-zh ar-nl ar-fr ar-de ar-ru zh-ar zh-nl zh-fr zh-de zh-ru nl-ar nl-zh nl-fr nl-de nl-ru fr-ar fr-zh fr-nl fr-de fr-ru de-ar de-zh de-nl de-fr de-ru ru-ar ru-zh ru-nl ru-fr ru-de en-fr en-tr en-es en-ro en-fi en-kk en-tr en-et en-fi en-lv en-cs en-de en-fr en-nl en-pt en-pl	Temporal
+\cite{shao2022one} \\	de-en ro-en fr-en en-de en-ro en-fr	Temporal
+\cite{guo2021self}\\	en-de en-ro de-en ro-en	Temporal
+\cite{liu2023selective} \\	en-de en-ro de-en ro-en	Temporal
+\cite{zhou2020improving}\\	en-de en-ro de-en ro-en	Temporal
+\citet{zhouunderstanding} \\	en-de en-fr en-es de-en fr-en es-en	Temporal
+\citet{gordon2019explaining}\\	en-de de-en	Temporal
+\citet{ren-etal-2020-study}\\	en-de de-en	Temporal
+\citet{ding2021rejuvenating}\\	en-de en-ro en-zh en-ja de-en ro-en zh-en ja-en	Temporal
+\citet{ding2021understanding} \\	en-de en-ro en-zh en-ja de-en ro-en zh-en ja-en	Temporal
+\citet{xu2021does}\\	en-de de-en	Temporal
+\citet{kim-rush-2016-sequence}	en-de th-en	Methods
+\citet{wang-etal-2021-selective}	en-de zh-en 	Methods
+\citet{lee-etal-2022-hard}	de-en en-vi	Methods
+\citet{{zhang-etal-2023-towards-understanding}	en-de en-fr en-ro	Methods
+\citet{miao-etal-2023-exploring}	de-en en-ro en-de	Methods
+\citet{Freitag2017EnsembleDF}	de-en	Methods
+\citet{zhang-etal-2018-analyzing}	en-de	Methods
+\citet{9722996}	en-de de-en en-es es-en en-fr fr-en en-zh zh-en	Methods
+\citet{li2020learninglightweighttranslationmodels}	en-de zh-en 	Methods
+\citet{lin-etal-2020-autoregressive}	en-de de-en	Methods
+\citet{yoon2023emnetworkoracleguidedselfdistillation}	en-de de-en	Methods
+\citet{setiawan-2024-accurate}	en-de de-en en-zh zh-en	Methods
+\citet{wen-etal-2023-f}	en-ro	Methods
+\citet{agarwal2024onpolicydistillationlanguagemodels}	en-de	Methods
