@@ -6,6 +6,8 @@ import seaborn as sns
 import numpy as np
 from matplotlib import rc
 
+HORIZONTAL=False
+
 # Set font to Computer Modern-like
 rc('font', family='serif', serif=['CMU Serif'])
 
@@ -33,8 +35,15 @@ frequency_to_color = {freq: color_palette[i] for i, freq in enumerate(unique_fre
 colors = [frequency_to_color[freq] for freq in dataset_frequencies]
 
 # Data for plotting
-fig, ax = plt.subplots(figsize=(6, 8))
-ax = sns.barplot(y=list(dataset_names), x=list(dataset_frequencies), palette=colors)
+if HORIZONTAL:
+	fig, ax = plt.subplots(figsize=(8, 6))
+	ax = sns.barplot(y=list(dataset_names), x=list(dataset_frequencies), palette=colors)
+else:
+	fig, ax = plt.subplots(figsize=(8, 6))
+	#plt.xticks(rotation=45)
+	plt.xticks(rotation='vertical')
+	ax = sns.barplot(x=list(dataset_names), y=list(dataset_frequencies), palette=colors)
+
 # We change the fontsize of minor ticks label 
 ax.tick_params(axis='both', which='major', labelsize=14)
 ax.tick_params(axis='both', which='minor', labelsize=14)# Enhance plot aesthetics
@@ -46,4 +55,8 @@ ax.tick_params(axis='both', which='minor', labelsize=14)# Enhance plot aesthetic
 # Remove unnecessary borders
 sns.despine(left=True, bottom=True)
 plt.tight_layout()
-plt.savefig('datasets_v1.pdf')
+
+if HORIZONTAL:
+	plt.savefig('datasets_v1.pdf')
+else:
+	plt.savefig('datasets_v1_vert.pdf')
