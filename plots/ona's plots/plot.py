@@ -38,15 +38,19 @@ colors = [frequency_to_color[freq] for freq in dataset_frequencies]
 if HORIZONTAL:
 	fig, ax = plt.subplots(figsize=(8, 6))
 	ax = sns.barplot(y=list(dataset_names), x=list(dataset_frequencies), palette=colors)
+	# We change the fontsize of minor ticks label 
+	ax.tick_params(axis='both', which='major', labelsize=14)
+	ax.tick_params(axis='both', which='minor', labelsize=14)# Enhance plot aesthetics
 else:
-	fig, ax = plt.subplots(figsize=(8, 6))
-	#plt.xticks(rotation=45)
-	plt.xticks(rotation='vertical')
+	fig, ax = plt.subplots(figsize=(8, 4))
 	ax = sns.barplot(x=list(dataset_names), y=list(dataset_frequencies), palette=colors)
+	#plt.xticks(rotation='vertical')
+	ax.set_xticklabels(ax.get_xticklabels(), rotation = 45, ha="right")
+	# We change the fontsize of minor ticks label 
+	ax.tick_params(axis='both', which='major', labelsize=10)
+	ax.tick_params(axis='both', which='minor', labelsize=10)# Enhance plot aesthetics
 
-# We change the fontsize of minor ticks label 
-ax.tick_params(axis='both', which='major', labelsize=14)
-ax.tick_params(axis='both', which='minor', labelsize=14)# Enhance plot aesthetics
+
 #ax.set_xlabel('Number of Mentions', fontsize=14, labelpad=10)
 #ax.set_ylabel('Datasets', fontsize=14, labelpad=10)
 #ax.set_title('Frequency of Dataset Usage in Surveyed Papers', fontsize=18, pad=20)
