@@ -24,12 +24,12 @@ tally_mmt = data
 data = [] # this is an mmt
 
 
-data_ = pd.read_csv('survey.tsv', sep='\t')
+data_ = pd.read_csv('survey_new.tsv', sep='\t')
 
 
-data.extend(data_[data_.work_type != 'MMT'].langpair.dropna().to_list())
+data.extend(data_[data_.Section != 'MMMT'].langpair.dropna().to_list())
 
-tally_mmt.extend(data_[data_.work_type == 'MMT'].langpair.dropna().to_list())
+tally_mmt.extend(data_[data_.Section == 'MMMT'].langpair.dropna().to_list())
 
 pairs = list(itertools.chain.from_iterable(map(handle_one, tqdm.tqdm(data))))
 source, target = zip(*pairs)
@@ -39,7 +39,7 @@ print(len(source), len(mmt_source), len(mmt_source) / (len(source) + len(mmt_sou
 print(len(target), len(mmt_target), len(mmt_target) / (len(target) + len(mmt_target)))
 # raise
 
-thresh = 5
+thresh = 10
 
 df = pd.DataFrame({'source': source, 'target': target})
 df['source_size'] = df.groupby('source')['source'].transform('size')
@@ -63,6 +63,8 @@ tgt_labels = [lg for lg in tgt_labels if lg.startswith('Other')] + [lg for lg in
 
 print(df)
 
+df.to_csv('sankey_counts.csv')
+
 ax = sankey(
     df['source'], df['target'], aspect=20, #colorDict=colorDict,
     leftLabels=src_labels,
@@ -71,6 +73,6 @@ ax = sankey(
     color_gradient=True,
 )
 # plt.show() # to display
-plt.savefig(f'lp_sankey_thresh{thresh}.pdf', bbox_inches='tight')
+plt.savefig(f'lp_sankey_thresh{thresh}_new.pdf', bbox_inches='tight')
 plt.clf()
 

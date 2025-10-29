@@ -9,10 +9,18 @@ from matplotlib import rc
 
 # -------- settings --------
 HORIZONTAL = False
-INPUT_TSV = "metrics.tsv"
-BASE_HEX = "#F4CCCC"  # base color for the grading scale
+INPUT_TSV = "datasets_new.tsv"
+BASE_HEX = "#C9DAF8"  # base color for the grading scale
 
 # optional: Computer Modern-like serif
+plt.rcParams.update({
+    "font.size": 20,          # base font size
+    "axes.titlesize": 16,     # title size
+    "axes.labelsize": 14,     # x/y label size
+    "xtick.labelsize": 12,    # tick labels
+    "ytick.labelsize": 12,
+    "legend.fontsize": 12,
+})
 rc('font', family='serif', serif=['CMU Serif'])
 
 # -------- helpers --------
@@ -30,7 +38,7 @@ def single_hue_gradient(hex_color, n, l_min=0.35, l_max=0.90):
 df = pd.read_csv(INPUT_TSV, sep="\t")
 
 # Extract and split dataset names
-datasets = df["Metric"].astype(str).tolist()
+datasets = df["Dataset"].astype(str).tolist()
 datasets_split = [d.strip() for entry in datasets for d in entry.split(",")]
 dataset_counts = Counter(datasets_split)
 
@@ -67,9 +75,9 @@ else:
     ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha="right")
     ax.tick_params(axis='both', which='major', labelsize=10)
     ax.tick_params(axis='both', which='minor', labelsize=10)
-    ax.set_xlabel('Metric', fontsize=12, labelpad=8)
+    ax.set_xlabel('Dataset', fontsize=12, labelpad=8)
     ax.set_ylabel('Number of Mentions', fontsize=12, labelpad=8)
-    outname = "metrics.pdf"
+    outname = "datasets_v2_vert.pdf"
 
 sns.despine(left=True, bottom=True)
 plt.tight_layout()
