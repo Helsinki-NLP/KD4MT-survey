@@ -59,25 +59,23 @@ colors = [freq_to_color[freq] for freq in dataset_frequencies] if dataset_freque
 
 # -------- plotting --------
 sns.set_theme(style="whitegrid")
-if HORIZONTAL:
-    fig, ax = plt.subplots(figsize=(8, 6))
-
-    ax = sns.barplot(y=list(dataset_names), x=list(dataset_frequencies), palette=colors)
-    ax.tick_params(axis='both', which='major', labelsize=14)
-    ax.tick_params(axis='both', which='minor', labelsize=14)
-    ax.set_xlabel('Number of Mentions', fontsize=14, labelpad=10)
-    ax.set_ylabel('Datasets', fontsize=14, labelpad=10)
-    ax.grid(True, linewidth=0.6, alpha=0.55)
-    outname = "datasets_v1.pdf"
-else:
-    fig, ax = plt.subplots(figsize=(10, 5))
-    ax = sns.barplot(x=list(dataset_names), y=list(dataset_frequencies), palette=colors)
-    ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha="right")
-    ax.tick_params(axis='both', which='major', labelsize=10)
-    ax.tick_params(axis='both', which='minor', labelsize=10)
-    ax.set_xlabel('Dataset', fontsize=12, labelpad=8)
-    ax.set_ylabel('Number of Mentions', fontsize=12, labelpad=8)
-    outname = "datasets_v2_vert.pdf"
+sns.set_theme(style="whitegrid")
+plt.rcParams.update({
+    "font.size": 20,          # base font size
+    "axes.titlesize": 16,     # title size
+    "axes.labelsize": 16,     # x/y label size
+    "xtick.labelsize": 14,    # tick labels
+    "ytick.labelsize": 14,
+    "legend.fontsize": 12,
+})
+fig, ax = plt.subplots(figsize=(10, 5))
+ax = sns.barplot(x=list(dataset_names), y=list(dataset_frequencies), palette=colors)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=45, ha="right")
+ax.tick_params(axis='both', which='major')
+ax.tick_params(axis='both', which='minor')
+ax.set_xlabel('Dataset', labelpad=8)
+ax.set_ylabel('Number of Mentions', labelpad=8)
+outname = "datasets_v2_vert_bigfont.pdf"
 
 sns.despine(left=True, bottom=True)
 plt.tight_layout()
